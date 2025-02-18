@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 @RestController
 public class BoardController2 {
-
     //@Autowired // 싱글톤 호출 대신에 Autowired 사용 (
     @Autowired
     private BoardDao boardDao;
