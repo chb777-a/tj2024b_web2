@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <div>
+        <h3> 리액트 시작합니다. </h3>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
