@@ -71,7 +71,7 @@ function Component6 (props){
     const items =[ '사과' , '바나나' , '배']
     // JSX 문법의 목록(li , option 등등) 마크업들에는 key 속성 필요로 한다.
         // => 리액트는 자동렌더링(새로고침) 할 때 key 변화를 감지하여 변환된 key만 별도로 랜더링하는 기능 포함
-    // JSX 문법에서는 forEach함수 보다 map함수를 자주 사용
+    // JSX 문법에서는 forEach함수 보다 map함수를 자주 사용 // forEach는 return X // map은 return O
     return(
         <>
             <ul>
