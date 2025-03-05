@@ -1,4 +1,4 @@
-package example.day06._aop_과제;
+package example.day06._aop과제;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

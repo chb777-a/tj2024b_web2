@@ -1,10 +1,9 @@
-package example.day06._aop_과제.service;
+package example.day06._aop과제.service;
 
-import example.day06._aop_과제.mapper.TaskMapper;
+
+import example.day06._aop과제.mapper.TaskMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 import java.util.Map;

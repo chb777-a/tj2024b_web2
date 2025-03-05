@@ -1,7 +1,6 @@
-package example.day06._aop_과제.controller;
+package example.day06._aop과제.controller;
 
-import example.day06._aop_과제.service.TaskService;
-import example.task.TaskService;
+import example.day06._aop과제.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,7 +11,7 @@ import java.util.Map;
 @RequestMapping("/day06/task")
 public class TaskController {
     @Autowired
-    private example.task.TaskService taskService;
+    private TaskService taskService;
 
     // [1] 학생 점수 등록
     @PostMapping("")

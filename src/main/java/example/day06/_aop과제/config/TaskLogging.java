@@ -1,4 +1,5 @@
-package example.day06._aop_과제.config;
+
+package example.day06._aop과제.config;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;

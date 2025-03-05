@@ -1,4 +1,4 @@
-package example.day06._aop_과제.mapper;
+package example.day06._aop과제.mapper;
 
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
