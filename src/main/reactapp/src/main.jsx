@@ -34,5 +34,13 @@ const root = createRoot( document.querySelector('#root') )
 // root.render(<Task/>)
 
 // day03 : 생명주기1
-import Example1 from './example/3_훅/Example1.jsx'
-root.render(<Example1/>)
+// import Example1 from './example/3_훅/Example1.jsx'
+// root.render(<Example1/>)
+
+// day 03 :
+// import Example2 from './example/3_훅/Example2.jsx'
+// root.render(<Example2/>)
+
+// day 03 :
+import Example3 from './example/3_훅/Example3.jsx'
+root.render(<Example3/>)
