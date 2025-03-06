@@ -37,11 +37,14 @@ export default function Example3(props){
             <input value={msg} onChange={inputfunction2}/> <br />
 
             <h1> 리액트 상태 변경 </h1>
-            <img onClick={changefunction} src={image} />
-            <img onClick={ () => {setImage(image == 'user1.png' ? 'user2.png' : 'user1.png') } } src={image}/> // 함수 없이 사용
+            
+            <img onClick={ () => {setImage(image == 'use1.png' ? 'use2.png' : 'use1.png') } } src={image}/>
         </>
     )
 }
+            // 1. 함수 사용 <img onClick={changefunction} src={image} />
+            // 2. 함수 미사용 <img onClick={ () => {setImage(image == 'user1.png' ? 'user2.png' : 'user1.png') } } src={image}/>
+
 /*
     HTML 이벤트 함수 , onXXX , 미리 만들어진 함수 제공
         [1] 종류
