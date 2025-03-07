@@ -50,5 +50,13 @@ const root = createRoot( document.querySelector('#root') )
 // root.render(<Task1/>)
 
 // day 03 : 과제
-import Task2 from './example/3_훅/Task2.jsx'
-root.render(<Task2/>)
+// import Task2 from './example/3_훅/Task2.jsx'
+// root.render(<Task2/>)
+
+// day 03 : 수업과제
+// import Task3 from './example/3_훅/Task3.jsx'
+// root.render(<Task3/>)
+
+// day 04 : useEffect
+import Example1 from './example/4_훅2/Example1.jsx'
+root.render(<Example1/>)
