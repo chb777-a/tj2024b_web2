@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import Example1 from './example/6_AXIOS/Example1'
 // import './index.css'
 // import App from './App.jsx'
 
@@ -64,5 +65,17 @@ const root = createRoot( document.querySelector('#root') )
 
 // day04 : 라우터 
 // main.jsx 가장 위에 존재하는 import App / import .css 샘플 코드 주석처리 , 
-import App from './example/5_라우터/Example1.jsx'
-root.render( <App /> )
+// import App from './example/5_라우터/Example1.jsx'
+// root.render( <App /> )
+
+// day05 : axios
+// import App from './example/6_AXIOS/Example1.jsx'
+// root.render(<App/>)
+
+// day05 : axios 2
+// import App from './example/6_AXIOS/Example2.jsx'
+// root.render(<App/>)
+
+// day05 : 연습
+import App from './example/6_AXIOS/Task.jsx'
+root.render(<App/>)
