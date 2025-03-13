@@ -84,8 +84,8 @@ const root = createRoot( document.querySelector('#root') )
 // import Example1 from './example/6_AXIOS/Example1'
 
 // day06 : 라우터 컴포넌트 랜더링
-// import App from './example/7_AXIOS2/APP.jsx'
-// root.render(<App/>)
+import App from './example/7_AXIOS2/APP.jsx'
+root.render(<App/>)
 
 
 // day07 : MUI 연습
@@ -93,5 +93,5 @@ const root = createRoot( document.querySelector('#root') )
 // root.render(<Example1/>)
 
 // day07 : MUI 연습
-import Example2 from './example/8_MUI/Example2'
-root.render(<Example2/>)
+// import Example2 from './example/8_MUI/Example2'
+// root.render(<Example2/>)
