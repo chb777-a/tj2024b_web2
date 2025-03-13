@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Example1 from './example/6_AXIOS/Example1'
+
+
+
 // import './index.css'
 // import App from './App.jsx'
 
@@ -79,7 +81,17 @@ const root = createRoot( document.querySelector('#root') )
 // day05 : 연습
 // import App from './example/6_AXIOS/Task.jsx'
 // root.render(<App/>)
+// import Example1 from './example/6_AXIOS/Example1'
 
 // day06 : 라우터 컴포넌트 랜더링
-import App from './example/7_AXIOS2/APP.jsx'
-root.render(<App/>)
+// import App from './example/7_AXIOS2/APP.jsx'
+// root.render(<App/>)
+
+
+// day07 : MUI 연습
+// import Example1 from './example/8_MUI/Example1.jsx'
+// root.render(<Example1/>)
+
+// day07 : MUI 연습
+import Example2 from './example/8_MUI/Example2'
+root.render(<Example2/>)
