@@ -77,5 +77,9 @@ const root = createRoot( document.querySelector('#root') )
 // root.render(<App/>)
 
 // day05 : 연습
-import App from './example/6_AXIOS/Task.jsx'
+// import App from './example/6_AXIOS/Task.jsx'
+// root.render(<App/>)
+
+// day06 : 라우터 컴포넌트 랜더링
+import App from './example/7_AXIOS2/APP.jsx'
 root.render(<App/>)
