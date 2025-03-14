@@ -8,6 +8,7 @@ create table productsample(
     comment longtext ,
     constraint primary key ( id )
 );
+
 -- ---------------------- ------ ---------------------------------- --
 
 

@@ -17,7 +17,7 @@ export default function Delete( props ){
 
     return(<> 
         <div>
-            <h3>Delete 페이지</h3> 
+            <h3>Delete 페이지</h3>
             <form>
                 삭제할제품번호 : <input  value={ deleteId } onChange={ onValueChange } /> <br/>
                 <button type="button" onClick={ onDelete }> 삭제 </button>

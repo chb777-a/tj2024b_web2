@@ -19,7 +19,7 @@ export default function Create( props ){
         else{ alert('제품등록실패'); }
     } // f end 
 
-    return(<> 
+    return(<>
         <div> 
             <h3> Create 페이지 </h3> 
             <form>
