@@ -1,3 +1,26 @@
+-- ---------------------- book work ---------------------------------- --
+
+DROP TABLE if EXISTS bookreview;
+DROP TABLE if EXISTS booksystem;
+CREATE TABLE booksystem(
+    bno INT UNSIGNED AUTO_INCREMENT,
+    btitle VARCHAR(20) NOT NULL,
+    bwriter VARCHAR(30) NOT NULL,
+    bcomments VARCHAR(50) NOT NULL,
+    bpwd VARCHAR(20) NOT NULL,
+    CONSTRAINT PRIMARY KEY (bno)
+);
+
+CREATE TABLE bookreview(
+    rno INT UNSIGNED auto_increment,
+    rtitle VARCHAR(30) NOT NULL,
+    rcontents VARCHAR(50) NOT NULL,
+    rpwd VARCHAR(10) NOT NULL,
+    bno INT UNSIGNED,
+    constraint foreign key ( bno ) references booksystem( bno ),
+    CONSTRAINT PRIMARY KEY (rno)
+);
+
 -- ---------------------- web ---------------------------------- --
 
 DROP TABLE if EXISTS member;
