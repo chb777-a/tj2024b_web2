@@ -14,7 +14,9 @@ import { createRoot } from 'react-dom/client'
 
 // (*) index.html에 root DOM 가져오기.
 const root = createRoot( document.querySelector('#root') )
-
+// (*) 최초로 보여줄 컴포넌트 가져오기
+import App from './components/App.jsx'
+root.render(<App/>);
 // day01 : '컴포넌트 만들기' 렌더링 
     // import 호출할컴포넌트명 from '경로/파일명(확장자)';
 // import Component1 from './example/1_동작구조/Component1.jsx'
@@ -84,8 +86,8 @@ const root = createRoot( document.querySelector('#root') )
 // import Example1 from './example/6_AXIOS/Example1'
 
 // day06 : 라우터 컴포넌트 랜더링
-import App from './example/7_AXIOS2/APP.jsx'
-root.render(<App/>)
+// import App from './example/7_AXIOS2/APP.jsx'
+// root.render(<App/>)
 
 
 // day07 : MUI 연습

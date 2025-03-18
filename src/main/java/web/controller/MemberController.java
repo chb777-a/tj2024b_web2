@@ -23,7 +23,7 @@ public class MemberController {
     private final MemberService memberService;
     // [1] 회원가입
     @PostMapping("/signup")
-    public boolean signUp(@RequestBody MemberDto memberDto){
+    public boolean signUp(MemberDto memberDto){ // multipart/form-data 사용시 @RequestBody 생략 // JSON 사용시 @RequestBody 사용(명시)
         System.out.println("MemberController.signUp");
         System.out.println("memberDto = " + memberDto);
         // return false;
@@ -67,6 +67,4 @@ public class MemberController {
         MemberDto memberDto = (MemberDto)object;// 4. 세션에 저장된 자료들은 모두 Object 타입이므로 타입변환 필요
         return memberDto; // 5. 로그인된 정보 반환
     }
-
-
 }
