@@ -12,7 +12,7 @@ public interface BookMapper {
     public boolean onEdit(BookDto bookDto);
 
     // 추천 수정
-    @Update("update booksystem set btitle = #{ btitle }, bwriter = #{ bwriter }, bcomments = #{ bcomments }}, bpwd = #{ bpwd } where bno = #{ bno }")
+    @Update("update booksystem set btitle = #{ btitle }, bwriter = #{ bwriter }, bcomments = #{ bcomments }, bpwd = #{ bpwd } where bno = #{ bno }")
     public boolean onUpdate(BookDto bookDto);
 
     // 추천 삭제

@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/day09/booksystem")
+@CrossOrigin("http://localhost:5173") // 리액트 포트 도메인 허용한다.
 public class BookController {
     @Autowired private BookService bookService;
 
