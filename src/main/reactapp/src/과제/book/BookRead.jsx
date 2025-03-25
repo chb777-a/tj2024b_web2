@@ -30,7 +30,6 @@ export default function BookRead(props){
         const responsed = await axios.delete(`http://localhost:8080/day09/booksystem?bno=${deleteContent}`)
         if(responsed.data == true){alert('삭제 성공'); navigate('/bookread');}
         else{alert('삭제 실패');}
-        
     }
 
     return(
