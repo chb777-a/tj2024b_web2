@@ -47,8 +47,8 @@ export default function BookReviewRead(props){
                                         <td> {review.rtitle} </td>
                                         <td> {review.rcontents} </td>
                                         <td> {review.bcomments} </td>
-                                        <button type="button" onClick={ bookUpdate }> 수정하기 </button>
-                                        <button type="button" onClick={ bookDelete }> 삭제하기 </button>
+                                        <button type="button" onClick={ reviewUpdate }> 수정하기 </button>
+                                        <button type="button" onClick={ reviewDelete }> 삭제하기 </button>
                                     </tr>
                                 )
                             })
