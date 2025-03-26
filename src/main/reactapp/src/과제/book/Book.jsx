@@ -17,7 +17,7 @@ export default function Book(props){
     return(
         <>
         <div>
-            <h3>책 추천 등록</h3>    
+            <h3>책 추천 등록</h3>  
             <form>
                 책 이름 입력 : <input name="btitle" value={bookForm.btitle} onChange={ valueChange }/>
                 책 저자 입력 : <input name="bwriter" value={bookForm.bwriter} onChange={ valueChange }/>

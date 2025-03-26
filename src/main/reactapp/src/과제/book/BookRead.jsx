@@ -52,7 +52,7 @@ export default function BookRead(props){
                                         <button type="button" onClick={ bookUpdate }> 수정하기 </button>
                                         <button type="button" onClick={ bookDelete }> 삭제하기 </button>
                                     </tr>
-                                )
+                                    )
                             })
                         }
                     </tbody>
