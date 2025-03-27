@@ -1,3 +1,12 @@
+-- ---------------------- day13 ---------------------------------- --
+INSERT INTO day13users (name, money) VALUES
+('서장훈', 500000),
+('신동엽', 300000);
+
+
+
+
+
 -- ---------------------- book work ---------------------------------- --
 INSERT INTO booksystem (btitle, bwriter, bcomments, bpwd) VALUES
 ('어떤책', '누구', '추천합니다','1234'),
